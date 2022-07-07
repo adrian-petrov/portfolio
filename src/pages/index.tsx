@@ -1,6 +1,6 @@
+import React from "react";
 import { graphql, Link, PageProps } from "gatsby";
 import { getImage, ImageDataLike } from "gatsby-plugin-image";
-import React from "React";
 import backendIcon from "../assets/images/backend-icon.svg";
 import frontendIcon from "../assets/images/frontend-icon.svg";
 import generalIcon from "../assets/images/general.svg";

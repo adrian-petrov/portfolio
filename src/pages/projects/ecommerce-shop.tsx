@@ -86,8 +86,35 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                 The app is split into 2 parts: a store front, and an admin
                 dashboard accessible at the <code>/admin</code> route. CRUD
                 actions in the admin dashboard are reflected in the store front.
-                The login details for both routes are included above their
-                relevant forms.
+                The login details for both routes are below:
+                <ul>
+                  <li>
+                    <span className="fw-bold">Store front:</span>
+                    <ul>
+                      <li>
+                        Auth route:{" "}
+                        <a href="https://adrianpetrov.com/live/ecommerce-shop/authenticate">
+                          https://adrianpetrov.com/live/ecommerce-shop/authenticate
+                        </a>
+                      </li>
+                      <li>Email: customer@ecommerce-shop.com</li>
+                      <li>Password: customerpassword</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span className="fw-bold">Admin dashboard:</span>
+                    <ul>
+                      <li>
+                        Auth route:{" "}
+                        <a href="https://adrianpetrov.com/live/ecommerce-shop/admin/login">
+                          https://adrianpetrov.com/live/ecommerce-shop/admin/login
+                        </a>
+                      </li>
+                      <li>Email: admin@ecommerce-shop.com</li>
+                      <li>Password: adminpassword</li>
+                    </ul>
+                  </li>
+                </ul>
               </p>
 
               <div className="mb-5">
