@@ -519,7 +519,7 @@ export const query = graphql`
       }
     }
     portfolio: file(
-      relativePath: { eq: "projects/portfolio-home-thumbnail.PNG" }
+      relativePath: { eq: "projects/portfolio-home-thumbnail.png" }
     ) {
       childImageSharp {
         gatsbyImageData(
