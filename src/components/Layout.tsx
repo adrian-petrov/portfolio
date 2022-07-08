@@ -32,7 +32,6 @@ const Layout = ({ children }: Props) => {
           rel="stylesheet"
           type="text/css"
         />
-        <link href="theme-2.css" rel="stylesheet" type="text/css" />
       </Helmet>
       <BodyWrapper>
         <Header />
