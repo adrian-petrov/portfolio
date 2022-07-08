@@ -6,10 +6,10 @@ export const onRenderBody: GatsbySSR["onRenderBody"] = ({
   setHeadComponents,
 }) => {
   setHeadComponents([
-    <link key={1} href="theme-2.css" rel="stylesheet" type="text/css" />,
+    <link key={1} href="/theme-2.css" rel="stylesheet" type="text/css" />,
   ]);
   setPostBodyComponents([
-    <script key={1} type="text/javascript" src="popper.min.js"></script>,
-    <script key={2} type="text/javascript" src="bootstrap.min.js"></script>,
+    <script key={1} type="text/javascript" src="/popper.min.js"></script>,
+    <script key={2} type="text/javascript" src="/bootstrap.min.js"></script>,
   ]);
 };
