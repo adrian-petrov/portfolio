@@ -219,7 +219,11 @@ const DSMSystemsPage = ({ data }: PageProps<TQueryProps>) => {
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="mx-2" href="https://dsmsystems.co.uk">
+                    <a
+                      className="mx-2"
+                      target="_"
+                      href="https://dsmsystems.co.uk"
+                    >
                       <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}
                         transform="grow-8"

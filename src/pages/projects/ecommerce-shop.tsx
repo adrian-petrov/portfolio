@@ -383,7 +383,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                 <ul className="list-unstyled ps-2">
                   <li className="mb-4">
                     <a
-                      href="https://github.com/adrian-petrov/EcommerceShop"
+                      href="https://github.com/adrian-petrov/ecommerce-shop"
                       target="_"
                     >
                       <FontAwesomeIcon
