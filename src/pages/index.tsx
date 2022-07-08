@@ -7,6 +7,7 @@ import generalIcon from "../assets/images/general.svg";
 import otherSkillsIcon from "../assets/images/other-skills-icon.svg";
 import Layout from "../components/Layout";
 import ProjectCard from "../components/ProjectCard";
+import HeaderContentIndex from "../components/Header/HeaderContentIndex";
 
 type TQueryProps = {
   ecommerce: ImageDataLike;
@@ -19,6 +20,7 @@ const HomePage = ({ data }: PageProps<TQueryProps>) => {
 
   return (
     <Layout>
+      <HeaderContentIndex />
       <section className="skills-section section py-5">
         <div className="container">
           <h3 className="section-title font-weight-bold text-center mb-3">

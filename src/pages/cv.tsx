@@ -8,10 +8,12 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
+import HeaderContentCV from "../components/Header/HeaderContentCV";
 
 const CVPage = () => {
   return (
     <Layout>
+      <HeaderContentCV />
       <article className="resume-wrapper text-center position-relative">
         <div className="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
           <header className="resume-header pt-4 pt-md-0">

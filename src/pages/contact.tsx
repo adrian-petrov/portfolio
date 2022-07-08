@@ -6,10 +6,12 @@ import {
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import HeaderContentContact from "../components/Header/HeaderContentContact";
 
 const ContactPage = () => {
   return (
     <Layout>
+      <HeaderContentContact />
       <section className="section py-5">
         <div className="container">
           <div className="row">

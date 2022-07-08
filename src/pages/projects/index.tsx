@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 import { getImage, ImageDataLike } from "gatsby-plugin-image";
 import React from "react";
+import HeaderContentProjects from "../../components/Header/HeaderContentProjects";
 import Layout from "../../components/Layout";
 import ProjectCard from "../../components/ProjectCard";
 
@@ -55,6 +56,7 @@ const Projects = () => {
 
   return (
     <Layout>
+      <HeaderContentProjects />
       <section className="section pt-5">
         <div className="container">
           <div className="project-cards row mb-5">

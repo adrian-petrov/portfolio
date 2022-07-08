@@ -115,7 +115,6 @@ const Header = () => {
           </nav>
         </div>
       </div>
-      <HeaderContent />
     </header>
   );
 };
