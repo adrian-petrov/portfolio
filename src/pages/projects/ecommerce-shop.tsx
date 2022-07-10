@@ -94,7 +94,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                       <li>
                         Auth route:{" "}
                         <a href="https://adrianpetrov.com/live/ecommerce-shop/authenticate">
-                          https://adrianpetrov.com/live/ecommerce-shop/authenticate
+                          https://ecommerce-shop.adrianpetrov.com/login
                         </a>
                       </li>
                       <li>Email: customer@ecommerce-shop.com</li>
@@ -107,7 +107,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                       <li>
                         Auth route:{" "}
                         <a href="https://adrianpetrov.com/live/ecommerce-shop/admin/login">
-                          https://adrianpetrov.com/live/ecommerce-shop/admin/login
+                          https://ecommerce-shop.adrianpetrov.com/admin/login
                         </a>
                       </li>
                       <li>Email: admin@ecommerce-shop.com</li>
@@ -399,7 +399,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                   <li className="mb-4">
                     <a
                       className="mx-2"
-                      href="https://adrianpetrov.com/live/ecommerce-shop"
+                      href="https://ecommerce-shop.adrianpetrov.com"
                     >
                       <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}

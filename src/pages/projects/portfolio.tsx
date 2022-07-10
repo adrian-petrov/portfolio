@@ -1,5 +1,4 @@
 import React from "react";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { getImage, ImageDataLike, StaticImage } from "gatsby-plugin-image";
 import bootstrapIcon from "../../assets/images/webdev-icons/bootstrap.png";
