@@ -93,7 +93,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                     <ul>
                       <li>
                         Auth route:{" "}
-                        <a href="https://adrianpetrov.com/live/ecommerce-shop/authenticate">
+                        <a href="https://ecommerce-shop.adrianpetrov.com/login">
                           https://ecommerce-shop.adrianpetrov.com/login
                         </a>
                       </li>
@@ -106,7 +106,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                     <ul>
                       <li>
                         Auth route:{" "}
-                        <a href="https://adrianpetrov.com/live/ecommerce-shop/admin/login">
+                        <a href="https://ecommerce-shop.adrianpetrov.com/admin/login">
                           https://ecommerce-shop.adrianpetrov.com/admin/login
                         </a>
                       </li>
