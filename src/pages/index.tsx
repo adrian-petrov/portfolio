@@ -37,7 +37,7 @@ const HomePage = ({ data }: PageProps<TQueryProps>) => {
             React, Angular, among many others. About a year ago, I knew it was
             time to accelerate my transition into the tech world and build
             something more serious. Something that would incorporate everything
-            I had learnt up to that pointl. So I put together this{" "}
+            I had learnt up to that point. So I put together this{" "}
             <Link className="text-link" to="/projects/ecommerce-shop">
               E-Commerce site.
             </Link>
