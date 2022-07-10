@@ -27,19 +27,19 @@ const HomePage = ({ data }: PageProps<TQueryProps>) => {
             How it all began...
           </h3>
           <div className="section-intro mx-auto text-center mb-5 text-secondary">
-            My programming journey began around 4 years ago. I was maintaining a
-            WordPress website and one day, out of curiousity, I had a look at a
-            random PHP file and I just knew there and then that this would be my
-            next challenge. The challenge soon became a hobby, and today it's
+            My programming journey began around 4 years ago. I was managing a
+            WordPress website and one day, out of curiousity, opened up a random
+            PHP file and I just knew there and then that this would be my next
+            challenge. The challenge would soon become a hobby, and today it's
             one of my passions. Over the years, I've learnt a great deal about
             writing clean code, design patterns and clean architecture. I've
             worked with a number of technologies including Node.js, PHP, Python,
-            React, Angular, among many others. In 2021, I decided it was time to
-            transition into tech fully and so I started working on my largest
-            project to date:{" "}
+            React, Angular, among many others. About a year ago, I knew it was
+            time to accelerate my transition into the tech world and build
+            something more serious. Something that would incorporate everything
+            I had learnt up to that pointl. So I put together this{" "}
             <Link className="text-link" to="/projects/ecommerce-shop">
-              an E-Commerce site which would incorporate everything I had learnt
-              up to that point
+              E-Commerce site.
             </Link>
             .
           </div>
