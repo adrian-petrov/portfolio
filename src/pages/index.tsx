@@ -39,7 +39,7 @@ const HomePage = ({ data }: PageProps<TQueryProps>) => {
             something more serious. Something that would incorporate everything
             I had learnt up to that point. So I put together this{" "}
             <Link className="text-link" to="/projects/ecommerce-shop">
-              E-Commerce site.
+              E-Commerce site
             </Link>
             .
           </div>
