@@ -93,8 +93,8 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                     <ul>
                       <li>
                         Auth route:{" "}
-                        <a href="https://ecommerce-shop.adrianpetrov.com/login">
-                          https://ecommerce-shop.adrianpetrov.com/login
+                        <a href="https://ecommerce-shop.adrianpetrov.com/authenticate">
+                          https://ecommerce-shop.adrianpetrov.com/authenticate
                         </a>
                       </li>
                       <li>Email: customer@ecommerce-shop.com</li>
