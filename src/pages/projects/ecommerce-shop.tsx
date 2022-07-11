@@ -120,7 +120,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
               <div className="mb-5">
                 <a
                   className="btn btn-primary"
-                  href="https://adrianpetrov.com/live/ecommerce-shop"
+                  href="https://ecommerce-shop.adrianpetrov.com"
                   target="_blank"
                 >
                   <FontAwesomeIcon

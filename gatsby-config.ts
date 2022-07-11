@@ -29,6 +29,14 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "console",
+        start_url: "/",
+        icon: "src/assets/images/favicon.png",
+      },
+    },
   ],
 };
 
