@@ -400,6 +400,7 @@ const EcommerceShopPage = ({ data }: PageProps<TQueryProps>) => {
                     <a
                       className="mx-2"
                       href="https://ecommerce-shop.adrianpetrov.com"
+                      target="_blank"
                     >
                       <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}
