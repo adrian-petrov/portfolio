@@ -6,6 +6,7 @@ import {
   faGithubAlt,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const StyledLink = styled(Link)`
   position: relative;
@@ -60,7 +61,13 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon">
+                <FontAwesomeIcon
+                  icon={faBars}
+                  transform="grow-6"
+                  color="white"
+                />
+              </span>
             </button>
 
             <div
