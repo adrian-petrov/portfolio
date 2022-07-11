@@ -120,7 +120,14 @@ const PortfolioPage = ({ data }: PageProps<TQueryProps>) => {
               <ProjectCard
                 title="Ecommerce Shop"
                 image={ecommerceImage!}
-                tags={["TypeScript", "React", "Redux", ".NET Core", "MySQL"]}
+                tags={[
+                  ".NET Core",
+                  "MySQL/EF Core",
+                  "Docker",
+                  "TypeScript",
+                  "React",
+                  "Redux",
+                ]}
                 to="/projects/ecommerce-shop"
               >
                 An Ecommerce website, split into 2 apps: a store front where
