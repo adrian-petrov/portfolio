@@ -339,7 +339,7 @@ const CVPage = () => {
                         <div className="resume-degree-org">
                           Bangor University
                         </div>
-                        <div className="resume-degree-time">2016-2020</div>
+                        <div className="resume-degree-time">2012-2016</div>
                       </li>
                     </ul>
                   </div>
