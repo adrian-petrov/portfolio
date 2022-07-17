@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import headshot from "../assets/images/profile-3.jpg";
 import {
   faGithubAlt,
+  faLinkedin,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -37,7 +38,7 @@ const ContactPage = () => {
                   </a>
                 </p>
                 <h6 className="font-weight-bold text-center mb-3">
-                  You can also find me on the following channels
+                  You can also find me on the following channels:
                 </h6>
                 <ul className="social-list-color list-inline mb-0">
                   <li className="list-inline-item mb-3">
@@ -56,6 +57,15 @@ const ContactPage = () => {
                       href="https://stackoverflow.com/users/11217072/adrian-petrov"
                     >
                       <FontAwesomeIcon icon={faStackOverflow} />
+                    </a>
+                  </li>
+                  <li className="list-inline-item mb-3">
+                    <a
+                      className="linkedin"
+                      target="_"
+                      href="https://www.linkedin.com/in/adrian-petrov-dev"
+                    >
+                      <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                   </li>
                 </ul>

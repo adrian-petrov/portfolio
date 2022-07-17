@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 import {
   faGithubAlt,
+  faLinkedin,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -48,6 +49,15 @@ const Header = () => {
                   href="https://stackoverflow.com/users/11217072/adrian-petrov"
                 >
                   <FontAwesomeIcon icon={faStackOverflow} />
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a
+                  className="text-white"
+                  target="_"
+                  href="https://www.linkedin.com/in/adrian-petrov-dev"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>
             </ul>

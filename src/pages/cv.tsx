@@ -1,5 +1,5 @@
 import React from "react";
-import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
+import { faGithubAlt, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faGlobe,
@@ -68,7 +68,7 @@ const CVPage = () => {
                   </div>
                   <div className="secondary-info col-auto mt-2">
                     <ul className="resume-social list-unstyled">
-                      <li className="mb-3">
+                      <li className="mb-2">
                         <a
                           className="text-link"
                           target="_"
@@ -80,7 +80,7 @@ const CVPage = () => {
                           github.com/adrian-petrov
                         </a>
                       </li>
-                      <li>
+                      <li className="mb-2">
                         <a
                           className="text-link"
                           href="https://adrianpetrov.com"
@@ -89,6 +89,17 @@ const CVPage = () => {
                             <FontAwesomeIcon icon={faGlobe} />
                           </span>
                           adrianpetrov.com
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="text-link"
+                          href="https://www.linkedin.com/in/adrian-petrov-dev/"
+                        >
+                          <span className="fa-container text-center me-2">
+                            <FontAwesomeIcon icon={faLinkedinIn} />
+                          </span>
+                          linkedin.com/in/adrian-petrov-dev
                         </a>
                       </li>
                     </ul>
@@ -103,20 +114,20 @@ const CVPage = () => {
                 Career Summary
               </h2>
               <div className="resume-section-content">
-                <p className="mb-1">
-                  I have been working in IT as Tech Support since August 2018. I
-                  have had the privilege to work on a wide range of projects
-                  which have enabled me to develop my problem-solving skills.
-                  Most notable and transferrable to a career as a developer are
-                  my skills in networking, web security, scripting, server
-                  management and cloud infrastructure.
+                <p className="mb-3">
+                  Self-taught developer with 4 years of non-commercial
+                  programming experience. Passionate about all things software
+                  development. Capable of solving complex problems using
+                  relevant design patterns and software development principles.
+                </p>
+                <p className="mb-3">
+                  Always aspiring to produce clean, documented, DRY code.
+                  Forever a student and highly motivated, I am always tinkering
+                  with some new technology in pursuit of expanding my skillset.
                 </p>
                 <p className="mb-0">
-                  However, programming is my true passion. During these 4 years,
-                  I have built several projects in my spare time using different
-                  tech stacks, studied extensively all the facets that make a
-                  good developer, from a solid understanding of design patterns
-                  and clean architecture, to industry best practices.
+                  I have worked with a variety of technologies, but for the last
+                  2 years my focus has been C#/.NET Core, React and Docker.
                 </p>
               </div>
             </section>
