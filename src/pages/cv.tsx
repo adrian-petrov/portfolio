@@ -115,7 +115,7 @@ const CVPage = () => {
               </h2>
               <div className="resume-section-content">
                 <p className="mb-3">
-                  Full Stack developer with 4 years of non-commercial
+                  Full Stack Developer with 4 years of non-commercial
                   programming experience. Passionate about all things software
                   development. Capable of solving complex problems using
                   relevant design patterns and software development principles.
